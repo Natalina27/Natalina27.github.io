@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>My first page</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/hearts.png">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+<!--Wrapper используется для объединения блоков и их выравнивания по центру страницы.-->
+
+    <div id="wrapper">
+
+<!--  Header   -->
+        <header>
+            <!--логотип-->
+            <a href="/"><img src="https://img.icons8.com/color/48/000000/hearts.png" alt="My logo" ></a>
+            <!--  Поиск-->
+            <form name="search" action="#" method="get">
+                <input type="text" name="q" placeholder="Search"><button type="submit">GO</button>
+            </form>
+            <!-- меню-->
+            <nav>
+                <ul class="top-menu">
+                    <li><a href="/home/">HOME</a></li>
+                    <li class="active">ABOUT ME</li>
+                    <li><a href="/services/">SERVICES</a></li>
+                    <li><a href="/customers/">CUSTOMERS</a></li>
+                    <li><a href="/projects/">PROJECTS</a></li>
+                    <li><a href="/careers/">CAREERS</a></li>
+                    <li><a href="/contact/">CONTACT</a></li>
+                </ul>
+            </nav>
+
+    <!-- Заголовок страницы-->
+            <div id="heading">
+                <h1>ABOUT ME</h1>
+            </div>
+        </header>
+<!-- Sidebar -->
+
+
+        <aside>
+
+<!-- Подменю-->
+            <nav>
+                <ul class="aside-menu">
+                    <li><a href="/home/">HOME</a></li>
+                    <li class="active">ABOUT ME</li>
+                    <li><a href="/services/">SERVICES</a></li>
+                    <li><a href="/customers/">CUSTOMERS</a></li>
+                    <li><a href="/projects/">PROJECTS</a></li>
+                    <li><a href="/careers/">CAREERS</a></li>
+                    <li><a href="/contact/">CONTACT</a></li>
+                </ul>
+            </nav>
+
+<!--Контент сайдбара-->
+
+            <h2>MY PET</h2>
+            <p><img src="images/myPets.jpg" width="210" height="180" alt="My pet"></p>
+        </aside>
+ <!-- Content -->
+        <section>
+        <!--Цитата-->
+            <blockquote>
+                <p>
+                    &ldquo;Perfection itself is imperfection.&rdquo;
+                </p>
+                <cite>VLADIMIR HOROWITZ</cite>
+            </blockquote>
+
+        <!--Контент-->
+                <p>Lorem ipsum dolor sit amet…</p>
+                <p>Donec vel nisl nibh…</p>
+                <p>Donec vel nisl nibh…</p>
+
+                <figure>
+                    <img src="images/PETER.jpg" width="320" height="275" alt="PETER kot">
+                </figure>
+                <figure>
+                    <img src="images/COFFEE.jpg" width="320" height="275" alt="coffee">
+                </figure>
+
+
+                <h2>MY PROJECTS</h2>
+                <div class="team-row">
+                    <figure>
+                        <img src="images/MyProjects/Amelie.jpg" width="305" height="240" alt="Project 1">
+                        <figcaption>Project 1<span>Amelie</span></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/MyProjects/derevo.jpg" width="305" height="240" alt="Project 2">
+                        <figcaption>Project 2<span>Derevo</span></figcaption>
+                    </figure>
+                    …
+                </div>
+                <div class="team-row">
+                    <figure>
+                        <img src="images/MyProjects/ulitka.jpg" width="305" height="240" alt="Project 3">
+                        <figcaption>Project 3<span>Ulitka</span></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/MyProjects/roseGarden.jpg" width="305" height="240" alt="Project 4">
+                        <figcaption>Project 4<span>Rose Garden</span></figcaption>
+                    </figure>
+                    …
+                </div>
+            </blockquote>
+        </section>
+    </div>
+ <!-- Footer -->
+    <footer>
+        <div id="footer">
+            <div id="twitter"></div>
+            <div id="sitemap"></div>
+            <div id="social"></div>
+            <div id="footer-logo"></div>
+
+
+<!--  Лента Твиттера   -->
+        <div id="twitter">
+            <h3>TWITTER FEED</h3>
+            <time datetime="2019-04-29"><a href="#">29 apr</a></time>
+            <p>
+                In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc. Aenean aug
+            </p>
+        </div>
+
+<!--  Карта сайта-->
+        <div id="sitemap">
+            <h3>SITEMAP</h3>
+            <div>
+                <a href="/home/">Home</a>
+                <a href="/about/">About</a>
+                <a href="/services/">Services</a>
+            </div>
+            <div>
+                <a href="/partners/">Partners</a>
+                <a href="/customers/">Support</a>
+                <a href="/contacts/">Contacts</a>
+            </div>
+        </div>
+        <div id="social">
+            <h3>SOCIAL NETWORKS</h3>
+            <a href="http://twitter.com/" class="social-icon twitter"><img src="css/images/social/"> </a>
+            <a href="http://facebook.com/" class="social-icon facebook"><img src="css/images/social/facebook-logo.png"></a>
+            <a href="http://plus.google.com/" class="social-icon google-plus"></a>
+            <a href="http://vimeo.com/" class="social-icon-small vimeo"></a>
+            <a href="http://youtube.com/" class="social-icon-small youtube"></a>
+            <a href="http://flickr.com/" class="social-icon-small flickr"></a>
+            <a href="http://instagram.com/" class="social-icon-small instagram"></a>
+            <a href="/rss/" class="social-icon-small rss"></a>
+        </div>
+        <div id="footer-logo">
+            <a href="/"><img src="images/footer-logo.png" alt="Whitesquare logo"></a>
+            <p>Copyright © 2012 Whitesquare. A <a href="http://pcklab.com">pcklab</a> creation</p>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
