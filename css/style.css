@@ -309,53 +309,7 @@ footer a {
     width: 130px;
 }
 
-/*.social-icon {*/
-/*    width: 30px;*/
-/*    height: 30px;*/
-/*    background: url(../images/social/social.jpeg) no-repeat;*/
-/*    display: inline-block;*/
-/*    margin-right: 10px;*/
-/*}*/
 
-/*.social-icon-small  {*/
-/*    width: 16px;*/
-/*    height: 16px;*/
-/*    background: url(../images/social/social.jpeg) no-repeat;*/
-/*    display: inline-block;*/
-/*    margin: 5px 6px 0 0;*/
-/*}*/
-
-/*.twitter {*/
-/*    background-position: 0 0;*/
-/*}*/
-
-/*.facebook {*/
-/*    background-position: -30px 0;*/
-/*}*/
-
-/*.google-plus {*/
-/*    background-position: -60px 0;*/
-/*}*/
-
-/*.vimeo {*/
-/*    background-position: 0 0;*/
-/*}*/
-
-/*.youtube {*/
-/*    background-position: -16px 0;*/
-/*}*/
-
-/*.flickr {*/
-/*    background-position: -32px 0;*/
-/*}*/
-
-/*.instagram {*/
-/*    background-position: -48px 0;*/
-/*}*/
-
-/*.rss {*/
-/*    background-position: -64px 0;*/
-/*}*/
 #footer-logo {
     float: right;
     margin-top: 20px;
