@@ -1,2 +1,2 @@
-let element = document.querySelector('search');
-console.log(element);
+let text = document.querySelector('search');
+console.log(text);
