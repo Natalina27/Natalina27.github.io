@@ -4,5 +4,6 @@
 //
 // console.log(sum(2,4));
 
-const searchInput = document.querySelector('#wrapper input .name');
-console.log(searchInput);
+
+let input = document.querySelector('#wrapper header form input');
+console.log(input);
