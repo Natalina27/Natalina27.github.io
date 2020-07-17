@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Natalina27/Natalina27#readme",
   "dependencies": {
-    "lodash": ">=4.17.13"
+    "lodash": ">=4.17.19"
   }
 }
 
